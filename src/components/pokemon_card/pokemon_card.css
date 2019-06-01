@@ -1,0 +1,62 @@
+.card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:gold;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: -200px 0 0 -125px;
+    border-radius:15px;
+    border:none;
+    box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.2);
+    transition:all .3s;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+h4 {
+    background:transparent;
+    border:0;
+    text-align:center;
+    font-size:24px;
+    font-weight:800;
+    color: royalblue;
+    text-transform: capitalize;
+}
+.sprites {
+    background: transparent;
+    width: 225px;
+    height: auto;
+    border-radius: 0%;
+    transform: scale(0.95);
+    transition:all .5s;
+    text-align:center;
+}
+.actions {
+    background:transparent;
+    border:0;
+    color:#fff;
+    display:inline-flex;
+}
+.actionFirst, .actionSecond {
+    width:50%;
+    text-align:center;
+    fill:#ddd;
+    transform: scale(0.8);
+    transition:all .3s;
+    cursor:pointer;
+  }
+  .actionFirst:hover, .actionSecond:hover {
+    transform: scale(1);
+    fill:#fff;
+    
+  }
+.pokeball{
+
+}
